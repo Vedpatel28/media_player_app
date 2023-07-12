@@ -50,7 +50,7 @@ class song_page extends StatelessWidget {
                           child: Row(
                             children: [
                               Container(
-                                width: s.width * 0.9,
+                                width: s.width,
                                 height: s.height * 0.24,
                                 child: CarouselSlider(
                                   items: List.generate(
@@ -233,7 +233,7 @@ class song_page extends StatelessWidget {
                       child: Row(
                         children: [
                           Container(
-                            width: s.width*1.1,
+                            width: s.width * 1.1,
                             child: StreamBuilder(
                               stream: provider.currentPosition,
                               builder: (context, AsyncSnapshot<Duration> snapshot) {
@@ -251,12 +251,7 @@ class song_page extends StatelessWidget {
                                             ),
                                             fit: BoxFit.cover,
                                           ),
-                                          borderRadius: BorderRadius.only(
-                                            topLeft:
-                                                Radius.circular(s.height * 0.04),
-                                            bottomLeft:
-                                                Radius.circular(s.height * 0.04),
-                                          ),
+                                          borderRadius: BorderRadius.only(topLeft: Radius.circular(s.height * 0.04), bottomLeft: Radius.circular(s.height * 0.04),),
                                           color: Colors
                                               .primaries[provider.indexSong % 18],
                                         ),
