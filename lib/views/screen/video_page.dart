@@ -15,43 +15,38 @@ class video_page extends StatelessWidget {
             ? Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  AspectRatio(
-                    aspectRatio:
-                        provider.videoPlayerController.value.aspectRatio,
-                    child: Chewie(
-                      controller: provider.chewieController,
+                  SizedBox(height: s.height * 0.18),
+                  Container(
+                    margin: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Colors.white,
+                        width: 8,
+                      ),
+                    ),
+                    child: AspectRatio(
+                      aspectRatio:
+                          provider.videoPlayerController.value.aspectRatio,
+                      child: Chewie(
+                        controller: provider.chewieController,
+                      ),
                     ),
                   ),
                   SizedBox(
-                    height: s.height * 0.58,
-                    child: GridView.builder(
+                    height: 300,
+                    child: ListView.separated(
+                      itemBuilder: (context, index) => ListTile(
+                        onTap: () {
+                          provider.indexPlay(index: index);
+                        },
+                        title: Text("Video : ${provider.videoList[index]}",
+                            style: const TextStyle(
+                              color: Colors.white,
+                            )),
+                      ),
+                      separatorBuilder: (context, index) => const Divider(),
                       itemCount: provider.videoList.length,
-                      gridDelegate:
-                          const SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 1,
-                      ),
-                      itemBuilder: (context, index) => SingleChildScrollView(
-                        scrollDirection: Axis.vertical,
-                        child: GestureDetector(
-                          onTap: () {
-                            provider.indexPlay(index: index);
-                          },
-                          child: Padding(
-                            padding: const EdgeInsets.all(8),
-                            child: Container(
-                              height: s.height * 0.2,
-                              width: double.infinity,
-                              margin: const EdgeInsets.all(10),
-                              decoration: BoxDecoration(
-                                color: Colors.primaries[index % 18],
-                              ),
-                            ),
-
-                          ),
-                        ),
-                      ),
                     ),
-
                   ),
                 ],
               )
@@ -60,3 +55,36 @@ class video_page extends StatelessWidget {
     );
   }
 }
+
+
+
+// SizedBox(height: s.height * 0.002),
+// SizedBox(
+//   height: s.height * 0.45,
+//   child: GridView.builder(
+//     itemCount: provider.videoList.length,
+//     gridDelegate:
+//         const SliverGridDelegateWithFixedCrossAxisCount(
+//       crossAxisCount: 1,
+//       mainAxisSpacing: 10,
+//       childAspectRatio: 2 / 1,
+//     ),
+//     itemBuilder: (context, index) => Column(
+//       children: [
+//         Expanded(
+//           child: Container(
+//             decoration: BoxDecoration(
+//               color: Colors.primaries[index % 18],
+//             ),
+//           ),
+//         ),
+//         Expanded(
+//             child: Container(
+//           decoration: BoxDecoration(
+//             color: Colors.primaries[(index + 1) % 18],
+//           ),
+//         )),
+//       ],
+//     ),
+//   ),
+// ),

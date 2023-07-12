@@ -13,24 +13,21 @@ class SongController extends ChangeNotifier {
       songPath + SongList.maan,
       metas: Metas(
         image: const MetasImage.network(
-          "https://static-cse.canva.com/blob/1078769/1600w-fxYFTKLArdY.jpg",
-        ),
+            "https://static-cse.canva.com/blob/1078769/1600w-fxYFTKLArdY.jpg"),
       ),
     ),
     Audio(
       songPath + SongList.man,
       metas: Metas(
         image: const MetasImage.network(
-          "https://dw0i2gv3d32l1.cloudfront.net/uploads/stage/stage_image/21198/optimized_large_thumb_stage.jpg",
-        ),
+            "https://dw0i2gv3d32l1.cloudfront.net/uploads/stage/stage_image/21198/optimized_large_thumb_stage.jpg"),
       ),
     ),
     Audio(
       songPath + SongList.daku,
       metas: Metas(
         image: const MetasImage.network(
-          "https://images.squarespace-cdn.com/content/v1/5befb3b84611a081dd003798/1542707489945-B1W9OUIZZPMQQJVOWSR1/suzanne.jpg?format=500w",
-        ),
+            "https://images.squarespace-cdn.com/content/v1/5befb3b84611a081dd003798/1542707489945-B1W9OUIZZPMQQJVOWSR1/suzanne.jpg?format=500w"),
       ),
     ),
     Audio(
@@ -124,12 +121,11 @@ class SongController extends ChangeNotifier {
   }
 
   init() {
-    assetsAudioPlayer
-        .open(
+    assetsAudioPlayer.open(
       audioList[indexSong],
+      showNotification: true,
       autoStart: (indexSong == 0) ? false : true,
-    )
-        .then((value) {
+    ).then((value) {
       totalTime = assetsAudioPlayer.current.value!.audio.duration;
     });
   }
@@ -170,15 +166,15 @@ class SongController extends ChangeNotifier {
 
   nextSong() async {
     await assetsAudioPlayer.stop();
-    (indexSong < audioList.length) ? indexSong++ : indexSong = 0;
+    (indexSong < audioList.length) ? indexSong++ : indexSong;
     init();
     notifyListeners();
   }
 
   prevSong() async {
     await assetsAudioPlayer.stop();
+    (indexSong < audioList.length) ? indexSong-- : indexSong;
     init();
-    (indexSong > audioList.length) ? indexSong-- : indexSong = audioList.length;
     notifyListeners();
   }
 }

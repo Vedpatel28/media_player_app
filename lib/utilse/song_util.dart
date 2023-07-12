@@ -7,7 +7,8 @@ class SongList {
   static String maan = 'Maan Meri Jaan(PagalWorld.com.se).mp3';
   static String man = 'man-is-he.mp3';
   static String Ankh = 'Ankh Uthi Mohabbat Ne_320(PagalWorld.com.se).mp3';
-  static String tua = 'Tu Hai To Mujhe Phir Aur Kya Chahiye_320(PagalWorld.com.se).mp3';
+  static String tua =
+      'Tu Hai To Mujhe Phir Aur Kya Chahiye_320(PagalWorld.com.se).mp3';
   static String dance = 'Dance ka Bhoot_320(PagalWorld.com.se).mp3';
   static String dil = 'Dil Galti Kar Baitha Hai_320(PagalWorld.com.se).mp3';
   static String chalisa = 'Hanuman Chalisa_320(PagalWorld.com.se).mp3';
@@ -15,11 +16,12 @@ class SongList {
   static String Kya = 'Kya Loge Tum_320(PagalWorld.com.se).mp3';
   static String mana = 'Maan Meri Jaan_320(PagalWorld.com.se).mp3';
   static String raatan = 'Raatan Lambiyan_320(PagalWorld.com.se).mp3';
-  static String sun = 'Suna Suna Hai Jahan Ab Jau Mai Kaha_320(PagalWorld.com.se).mp3';
+  static String sun =
+      'Suna Suna Hai Jahan Ab Jau Mai Kaha_320(PagalWorld.com.se).mp3';
   static String tere = 'Tere Pyar Mein_320(PagalWorld.com.se).mp3';
-  static String tu = 'Tu Hai To Mujhe Phir Aur Kya Chahiye_320(PagalWorld.com.se).mp3';
+  static String tu =
+      'Tu Hai To Mujhe Phir Aur Kya Chahiye_320(PagalWorld.com.se).mp3';
   static String muje = 'Tu Mujhse Juda_320(PagalWorld.com.se).mp3';
-
 }
 
 List<String> allSongCover = [
@@ -38,4 +40,23 @@ List<String> allSongCover = [
   "https://nettv4u.com/fileman/Uploads/Top-10-Bollywood-Playback-Singers-of-the-New-Era/Arijit_Singh.jpg",
   "https://static-cse.canva.com/blob/1078769/1600w-fxYFTKLArdY.jpg",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvefhxQYfWRZqE4HIqptzu0jCoPYC13XWwVg&usqp=CAU",
+];
+
+List<String> allSongName = [
+  "Daku_320",
+  "Maan Meri ",
+  "man",
+  "Ankh Uthi ",
+  "Tu Hai To",
+  "Dance Bhoot",
+  "Dil Galti ",
+  "Hanuman Chalisa",
+  "Kesariya",
+  "Kya Loge Tum",
+  "Maan Meri Jaan",
+  "Raatan Lambiyan",
+  "Suna Suna Hai",
+  "Tere Pyar Mein",
+  "Tu Hai To Mujhe",
+  "Tu Hai To Mujhe",
 ];
