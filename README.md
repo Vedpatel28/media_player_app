@@ -1,19 +1,31 @@
-# Media Booster
-
 ### Project Description:
+
 The aim of this project is to develop a media player application using the Flutter framework that
 enhances the media playback experience for users. The Media Booster app will have an audio
 player, video player, and carousel slider functionalities along with a tab bar view. The project is
 designed to enhance the knowledge and skills of IT students in mobile app development using
 Flutter.
 
-### Song Page Screens
+https://github.com/Vedpatel28/media_player_app/assets/130833918/ff257412-2791-471e-9759-24a1792d0d8c
+
+### Song Player Screens
 
 <br>
 
-<img src = "https://github.com/Vedpatel28/media_player_flutter_app/assets/130833918/4405712e-0c29-41a1-9590-25ce440951e1" height = "350"></img>
-<img src = "https://github.com/Vedpatel28/media_player_flutter_app/assets/130833918/2d027673-f1c8-4c4c-bd8f-46e642e5505d" height = "350"></img>
-<img src = "https://github.com/Vedpatel28/media_player_flutter_app/assets/130833918/b1b2031b-0b0d-4337-83b9-7af09cc41b4e" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/aea82c0c-e017-46df-94bb-f213cf253b2e" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/39c8483b-adb1-4134-8a0e-d20f3761f03e" height = "350"></img>
+
+####   carousel_slider
+<br>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/2899b343-8521-4e41-9770-481052f9f422" height = "350"></img>
+
+### Video Player Screens
+
+<br>
+
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/b7b7b6ce-e7bc-42a6-9e8c-96439fa0cabf" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/8d180f10-75d0-4e71-9416-9a6fe3f344f5" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/ebe00705-2325-486d-b49e-1fed6f78c61e" height = "350"></img>
 
 ### Project Objectives:
 - To develop a media player application using the Flutter framework.
