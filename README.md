@@ -7,13 +7,23 @@ player, video player, and carousel slider functionalities along with a tab bar v
 designed to enhance the knowledge and skills of IT students in mobile app development using
 Flutter.
 
-### Song Page Screens
+### Song Player Screens
 
 <br>
 
-<img src = "https://github.com/Vedpatel28/media_player_flutter_app/assets/130833918/4405712e-0c29-41a1-9590-25ce440951e1" height = "350"></img>
-<img src = "https://github.com/Vedpatel28/media_player_flutter_app/assets/130833918/2d027673-f1c8-4c4c-bd8f-46e642e5505d" height = "350"></img>
-<img src = "https://github.com/Vedpatel28/media_player_flutter_app/assets/130833918/b1b2031b-0b0d-4337-83b9-7af09cc41b4e" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/3c837356-bc16-49b5-933d-9523a6dcb38b" height = "350"></img>
+
+####   carousel_slider
+<br>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/cebc5f82-9b10-4c58-848e-9ee0a60c0e93" height = "350"></img>
+
+### Video Player Screens
+
+<br>
+
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/b7b7b6ce-e7bc-42a6-9e8c-96439fa0cabf" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/8d180f10-75d0-4e71-9416-9a6fe3f344f5" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/ebe00705-2325-486d-b49e-1fed6f78c61e" height = "350"></img>
 
 ### Project Objectives:
 - To develop a media player application using the Flutter framework.
