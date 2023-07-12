@@ -1,5 +1,3 @@
-# Media Booster
-
 ### Project Description:
 The aim of this project is to develop a media player application using the Flutter framework that
 enhances the media playback experience for users. The Media Booster app will have an audio
@@ -11,11 +9,12 @@ Flutter.
 
 <br>
 
-<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/3c837356-bc16-49b5-933d-9523a6dcb38b" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/aea82c0c-e017-46df-94bb-f213cf253b2e" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/39c8483b-adb1-4134-8a0e-d20f3761f03e" height = "350"></img>
 
 ####   carousel_slider
 <br>
-<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/cebc5f82-9b10-4c58-848e-9ee0a60c0e93" height = "350"></img>
+<img src = "https://github.com/Vedpatel28/media_player_app/assets/130833918/2899b343-8521-4e41-9770-481052f9f422" height = "350"></img>
 
 ### Video Player Screens
 
