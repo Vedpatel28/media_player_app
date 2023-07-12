@@ -43,6 +43,7 @@ dependencies:
   sprung: ^3.0.1
   video_player:
   chewie:
+  carousel_slider:
 
 dev_dependencies:
   flutter_test:
