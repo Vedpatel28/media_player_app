@@ -32,20 +32,23 @@ class video_page extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(height: s.height * 0.1),
                   SizedBox(
                     height: 300,
                     child: ListView.separated(
+                      itemCount: provider.videoList.length,
                       itemBuilder: (context, index) => ListTile(
                         onTap: () {
                           provider.indexPlay(index: index);
                         },
-                        title: Text("Video : ${provider.videoList[index]}",
-                            style: const TextStyle(
-                              color: Colors.white,
-                            )),
+                        title: Text(
+                          "Video : ${provider.videoList[index]}",
+                          style: const TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
                       ),
                       separatorBuilder: (context, index) => const Divider(),
-                      itemCount: provider.videoList.length,
                     ),
                   ),
                 ],
@@ -55,36 +58,3 @@ class video_page extends StatelessWidget {
     );
   }
 }
-
-
-
-// SizedBox(height: s.height * 0.002),
-// SizedBox(
-//   height: s.height * 0.45,
-//   child: GridView.builder(
-//     itemCount: provider.videoList.length,
-//     gridDelegate:
-//         const SliverGridDelegateWithFixedCrossAxisCount(
-//       crossAxisCount: 1,
-//       mainAxisSpacing: 10,
-//       childAspectRatio: 2 / 1,
-//     ),
-//     itemBuilder: (context, index) => Column(
-//       children: [
-//         Expanded(
-//           child: Container(
-//             decoration: BoxDecoration(
-//               color: Colors.primaries[index % 18],
-//             ),
-//           ),
-//         ),
-//         Expanded(
-//             child: Container(
-//           decoration: BoxDecoration(
-//             color: Colors.primaries[(index + 1) % 18],
-//           ),
-//         )),
-//       ],
-//     ),
-//   ),
-// ),

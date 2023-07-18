@@ -242,7 +242,7 @@ class song_page extends StatelessWidget {
                                   return Row(
                                     children: [
                                       Container(
-                                        height: s.height,
+                                        height: s.height  ,
                                         width: s.width * 0.17,
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
