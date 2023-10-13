@@ -6,7 +6,7 @@ player, video player, and carousel slider functionalities along with a tab bar v
 designed to enhance the knowledge and skills of IT students in mobile app development using
 Flutter.
 
-https://github.com/Vedpatel28/media_player_app/assets/130833918/ff257412-2791-471e-9759-24a1792d0d8c
+https://github.com/Vedpatel28/media_player_app/assets/130833918/fee3cf05-d4d8-4101-adbc-14f236174440
 
 ### Song Player Screens
 
